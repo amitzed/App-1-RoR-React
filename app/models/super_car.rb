@@ -1,0 +1,2 @@
+class SuperCar < ApplicationRecord
+end
