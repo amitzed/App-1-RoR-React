@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_09_04_000402) do
+ActiveRecord::Schema.define(version: 2019_09_05_010135) do
 
   create_table "active_admin_comments", force: :cascade do |t|
     t.string "namespace"
@@ -36,6 +36,29 @@ ActiveRecord::Schema.define(version: 2019_09_04_000402) do
     t.datetime "updated_at", null: false
     t.index ["email"], name: "index_admin_users_on_email", unique: true
     t.index ["reset_password_token"], name: "index_admin_users_on_reset_password_token", unique: true
+  end
+
+  create_table "images", force: :cascade do |t|
+    t.integer "super_car_id"
+    t.string "description"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["super_car_id"], name: "index_images_on_super_car_id"
+  end
+
+  create_table "super_cars", force: :cascade do |t|
+    t.string "title"
+    t.string "description"
+    t.string "manufacturer"
+    t.string "production"
+    t.string "assembly"
+    t.string "layout"
+    t.string "engine"
+    t.string "horsepower"
+    t.string "predecessor"
+    t.string "source"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
 end
