@@ -16,6 +16,10 @@
   background: -moz-linear-gradient(to right, #F6F1D3, rgba(161,211,96,.5) 85%, #F6F1D3);
   background: -ms-linear-gradient(to right, #F6F1D3, rgba(161,211,96,.5) 85%, #F6F1D3);
   background: linear-gradient(to right, #F6F1D3, rgba(161,211,96,.5) 85%, #F6F1D3);
+  -webkit-animation: float 6s infinite;
+  -moz-animation: float 6s infinite;
+  -ms-animation: float 6s infinite;
+  animation: float 6s infinite;
 }
 #imgBtn:hover {
   background: #CBE2C1;
@@ -26,28 +30,13 @@
 }
 
 #desc {
-  background: rgba(223,223,223,.5);
-  background: -webkit-linear-gradient(to right, #F6F1D3, rgba(161,211,96,.5) 85%, #F6F1D3);
-  background: -moz-linear-gradient(to right, #F6F1D3, rgba(161,211,96,.5) 85%, #F6F1D3);
-  background: -ms-linear-gradient(to right, #F6F1D3, rgba(161,211,96,.5) 85%, #F6F1D3);
-  background: linear-gradient(to right, #F6F1D3, rgba(161,211,96,.5) 85%, #F6F1D3);
   color: #233045;
-  border-radius: 45px 7px;
-  -webkit-animation: float 6s infinite;
-  -moz-animation: float 6s infinite;
-  -ms-animation: float 6s infinite;
-  animation: float 6s infinite;
-  -webkit-transition: background 3s ease-in-out;
-  -moz-transition: background 3s ease-in-out;
-  -ms-transition: background 3s ease-in-out;
-  transition: background 3s ease-in-out;
   -webkit-transition: color 1s ease-in-out;
   -moz-transition: color 1s ease-in-out;
   -ms-transition: color 1s ease-in-out;
   transition: color 1s ease-in-out;
 }
 #desc:hover {
-
   color: #ba2140;
 }
 
