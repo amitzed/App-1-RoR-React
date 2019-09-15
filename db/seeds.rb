@@ -19,9 +19,9 @@ chiron = SuperCar.create(
   predecessor: "Bugatti Veyron",
   source: "https://en.wikipedia.org/wiki/Bugatti_Chiron"
 )
-chiron.images.create(description: "/app/assets/images/chiron1.jpg")
-chiron.images.create(description: "/app/assets/images/chiron2.png")
-chiron.images.create(description: "/app/assets/images/chiron3.jpg")
+chiron.images.create(description: "https://assets.bugatti.com/fileadmin/_processed_/sei/p54/se-image-204c6caaa086fafe35dc6199ebe10880.jpg")
+chiron.images.create(description: "https://media.wired.com/photos/5d6ecc7c4697d8000907f2e2/master/pass/Transpo_Bugatti_05_08_ss300p_ehra-lessien.jpg")
+chiron.images.create(description: "https://cdn.motor1.com/images/mgl/QE3q0/s3/2021-bugatti-chiron-super-sport-300.jpg")
 
 koenigsegg = SuperCar.create(
   title: "Koenigsegg Agera",
@@ -35,9 +35,9 @@ koenigsegg = SuperCar.create(
   predecessor: "Koenigsegg CCX",
   source: "https://en.wikipedia.org/wiki/Koenigsegg_Agera#RS"
 )
-koenigsegg.images.create(description: "/app/assets/images/koenigsegg1.jpeg")
-koenigsegg.images.create(description: "/app/assets/images/koenigsegg2.jpg")
-koenigsegg.images.create(description: "/app/assets/images/koenigsegg3.jpeg")
+koenigsegg.images.create(description: "https://cdn.images.express.co.uk/img/dynamic/24/590x/Koenigsegg-Agera-RS-1133543.jpg?r=1559138272866")
+koenigsegg.images.create(description: "https://upload.wikimedia.org/wikipedia/commons/0/0a/2015_Koenigsegg_Agera_N_%2819886243212%29.jpg")
+koenigsegg.images.create(description: "https://cnet1.cbsistatic.com/img/kAGK9x9d3eDLX4eoaryw59DFn6c=/980x551/2016/09/05/aaa38638-24a9-470d-b119-ea5b382a5524/koenigsegg-agera-rs-naraya-1.jpg")
 
 mclaren = SuperCar.create(
   title: "McLaren 720S",
@@ -51,9 +51,9 @@ mclaren = SuperCar.create(
   predecessor: "McLaren 650S",
   source: "https://en.wikipedia.org/wiki/McLaren_720S"
 )
-mclaren.images.create(description: "/app/assets/images/mclaren1.jpg")
-mclaren.images.create(description: "/app/assets/images/mclaren2.jpg")
-mclaren.images.create(description: "/app/assets/images/mclaren3.jpg")
+mclaren.images.create(description: "https://i.ytimg.com/vi/o6_OHzFosVw/maxresdefault.jpg")
+mclaren.images.create(description: "https://cdn.gearpatrol.com/wp-content/uploads/2019/08/McLaren-720S-Spider-Review-gear-patrol-slide-2-1940x1300.jpg")
+mclaren.images.create(description: "https://cdn.carbuzz.com/gallery-images/840x560/541000/400/541451.jpg")
 
 ferrari = SuperCar.create(
   title: "Ferrari 488 GTB",
@@ -67,6 +67,6 @@ ferrari = SuperCar.create(
   predecessor: "Ferrarri 488 GTB",
   source: "https://en.wikipedia.org/wiki/Ferrari_F8_Tributo"
 )
-ferrari.images.create(description: "/app/assets/images/ferrari1.jpg")
-ferrari.images.create(description: "/app/assets/images/ferrari2.jpg")
-ferrari.images.create(description: "/app/assets/images/ferrari3.jpg")
+ferrari.images.create(description: "https://cdn.motor1.com/images/mgl/kL1RR/s1/novitec-n-largo-ferrari-488.jpg")
+ferrari.images.create(description: "https://s.aolcdn.com/dims-global/dims3/GLOB/legacy_thumbnail/788x525/quality/85/https://s.aolcdn.com/commerce/autodata/images/USC60FRC211A01301.jpg")
+ferrari.images.create(description: "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/488pista-1557778038.jpg?crop=0.819xw:1.00xh;0.0929xw,0&resize=640:*")

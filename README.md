@@ -1,5 +1,10 @@
 # README
 
+#### -> Bundle Install
+#### Ruby on Rails Backend Data -> http://localhost:3001/api/super_cars
+#### To View Data Based On ID -> http://localhost:3001/api/super_cars/1  (or /2, /3, /4)
+#### React Frontend -> http://localhost:3000/
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
