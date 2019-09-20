@@ -5,3 +5,5 @@
 #### Ruby on Rails Backend Data -> http://localhost:3001/api/super_cars
 #### To View Data Based On ID -> http://localhost:3001/api/super_cars/1  (or /2, /3, /4)
 #### React Frontend -> http://localhost:3000/
+
+#### In browser if you add /admin extension then can Create/Edit Super Cars.
